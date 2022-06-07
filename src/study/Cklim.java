@@ -16,6 +16,7 @@ public class Cklim {
 
         list.forEach(item -> {
             System.out.println(item);
+            System.out.println("hi");
         });
 
 	}
