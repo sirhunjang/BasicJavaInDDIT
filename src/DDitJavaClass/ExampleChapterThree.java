@@ -15,11 +15,11 @@ public class ExampleChapterThree {
 
   /*  int var1 = 5; // 실수 식으로 계산하면 원하는 계산값이 나옴.
     int var2 = 2;
-    double var3 = var1 / var2;
-    int var4 = (int) (var3 * var2);
+    double var3 = var1 / var2;     // double var3 = (double) var1 / var2;
+    int var4 = (int) (var3 * var2);// double var4 = (var3 * var2);
         System.out.println(var4); */
 
-   /* int value = 356; //산술 연산자 - 이용 풀이 가능.
+   /* int value = 356; //산술 연산자 (-) 이용 풀이 가능.
         System.out.println(value-56);*/
 
     /*double var1 = 10; // float 타입은 10f로 표현되서 double타입으로 바꿔주면 계산값이 맞게나온다.
@@ -36,17 +36,18 @@ public class ExampleChapterThree {
     double area = (double) (lengthTop + lengthBottom) * height / 2;
         System.out.println(area);*/
 
-/*        Scanner scanner = new Scanner(System.in); // 아직 반복문을 몰라서 반복은 어렵다.
+/*        Scanner scanner = new Scanner(System.in);
         System.out.println("첫 번재 수 : ");
         double noOne = scanner.nextDouble();
         System.out.println("두 번째 수 : ");
         double noTwo = scanner.nextDouble();
-        double noThree = noOne - noTwo - 1.88;
-        System.out.println(noThree);
+//      double noThree = noOne - noTwo - 1.88;
+//      System.out.println(noThree);
         System.out.println("------------------");
-        if (noTwo != 0.0) {
+        if (noTwo != 0.0) { // if 조건문으로 부정연산! 때문에 0.0만 아니면 실행이된다.
+                            // 근데 값이 계속 달라짐 0이나 0.0넣으면 무한대로 나온다.
             System.out.println("결과 : " + (noOne/noTwo));
-        } else {
+        } else {                    //  else 문으로
             System.out.println("결과 : 무한대 ");
         }
 */
