@@ -14,10 +14,11 @@ public class Exercise25 {
         System.out.println("10원짜리 동전의 갯수 : ");
         int strNum4 = scanner.nextInt();
         int total = (500 * strNum1) + (100 * strNum2) + (50 * strNum3) + (10 * strNum4);
-        System.out.println("저금통 안의 동전의 총 액수 : " + total);
-
-
-
-
+        System.out.println("저금통 안의 동전의 총 액수 " +
+                "" +
+                "" +
+                "" +
+                ": " + total);
+        scanner.close();
     }
 }
