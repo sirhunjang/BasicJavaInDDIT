@@ -7,7 +7,7 @@ public class Example06131 {
             for (int y = 0; y <= 10; y++)
                 if ((4 * x) + (y * 5) == 60) {
                 System.out.println(x + "," + y);
-                break;
+
                 }
         }
     }
